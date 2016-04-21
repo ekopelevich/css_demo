@@ -1,0 +1,52 @@
+* {
+  color: blue;
+}
+
+#main-nav {
+  background-color: red;
+}
+
+.main-nav {
+  background-color: green;
+}
+
+main {
+  color: purple;
+}
+
+h1 {
+  color: pink;
+}
+
+.special {
+  font-size: 2em;
+}
+
+p {
+  font-weight: bold;
+}
+
+main > p {
+  color: green;
+}
+
+.monkeys ~ p {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+button {
+  padding: 20px;
+  margin: 30px;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  margin: 10px auto;
+}
+
+.clear-box {
+  clear: both;
+}
